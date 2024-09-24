@@ -16,8 +16,7 @@ https://book.getfoundry.sh/
 ## Usage
 
 ## command
-`forge create --rpc-url linea-testnet src/DutchAuction.sol:DutchAuction --private-key $PRIVATE_KEY --constructor-args <startingPrice> <discountRate> <nft> <nftId>
-`
+forge create --rpc-url linea-testnet src/DutchAuction.sol:DutchAuction --private-key $PRIVATE_KEY --constructor-args <startingPrice> <discountRate> <nft> <nftId>
 
 ### Build
 
